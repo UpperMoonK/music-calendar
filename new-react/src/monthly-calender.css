@@ -1,0 +1,125 @@
+body {
+	background-color: grey;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 4vw;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: greenyellow;
+}
+nav {
+	ul {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li a {
+		display: block;
+		color: white;
+		font-size: 2vw;
+		text-align: center;
+		padding: 14px 16px;
+	}
+
+	li a:hover {
+		color: white;
+		background-color: #111;
+	}
+}
+.imageBlock {
+	display: flex;
+}
+.imageBlock > div {
+	padding: 10px;
+}
+@media only screen and (max-width: 720px) {
+	h1 {
+		font-size: 6vw;
+		/* text-align: left; */
+		margin-left: -15%;
+		margin-right: -15%;
+	}
+	nav {
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+		li a {
+			font-size: 4vw;
+			padding: 4px 16px;
+		}
+	}
+	.imageBlock {
+		flex-direction: column;
+	}
+	.imageBlock > div {
+		padding: 0px;
+	}
+}
+
+p {
+  text-align: center;
+}
+
+.monthly-calendar-heatmap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month-container {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.day-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.day-cell {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.color-empty {
+  background-color: grey;
+}
+
+.color-low {
+  background-color: darkblue;
+}
+
+.color-medium {
+  background-color: blue;
+}
+
+.color-high {
+  background-color: lightblue;
+  color: black;
+}
