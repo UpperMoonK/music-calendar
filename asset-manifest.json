@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/new-react/static/css/main.12c0204d.css",
-    "main.js": "/new-react/static/js/main.b07363bd.js",
-    "static/js/488.2c1eba11.chunk.js": "/new-react/static/js/488.2c1eba11.chunk.js",
-    "index.html": "/new-react/index.html",
-    "main.12c0204d.css.map": "/new-react/static/css/main.12c0204d.css.map",
-    "main.b07363bd.js.map": "/new-react/static/js/main.b07363bd.js.map",
-    "488.2c1eba11.chunk.js.map": "/new-react/static/js/488.2c1eba11.chunk.js.map"
+    "main.css": "/music-calendar/static/css/main.12c0204d.css",
+    "main.js": "/music-calendar/static/js/main.fac9ee70.js",
+    "static/js/488.2c1eba11.chunk.js": "/music-calendar/static/js/488.2c1eba11.chunk.js",
+    "index.html": "/music-calendar/index.html",
+    "main.12c0204d.css.map": "/music-calendar/static/css/main.12c0204d.css.map",
+    "main.fac9ee70.js.map": "/music-calendar/static/js/main.fac9ee70.js.map",
+    "488.2c1eba11.chunk.js.map": "/music-calendar/static/js/488.2c1eba11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12c0204d.css",
-    "static/js/main.b07363bd.js"
+    "static/js/main.fac9ee70.js"
   ]
 }
